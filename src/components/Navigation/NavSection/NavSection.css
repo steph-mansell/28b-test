@@ -1,0 +1,19 @@
+.nav-section {
+  padding-bottom: 20px;
+}
+
+.items {
+  padding-bottom: 20px;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.items:hover {
+  opacity: 50%;
+}
+
+.name {
+  opacity: 50%;
+  padding-bottom: 20px;
+}
