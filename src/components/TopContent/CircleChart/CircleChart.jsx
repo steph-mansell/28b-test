@@ -19,7 +19,7 @@ function CircleChart() {
     labels: [],
     datasets: [
       {
-        label: "blah",
+        label: "calls per month",
         data: [percentage, 28 - percentage],
         backgroundColor: ["#f68b15", "#dddddd"],
         borderColor: ["#f68b15", "#dddddd"],
