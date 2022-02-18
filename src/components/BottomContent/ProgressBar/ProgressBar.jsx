@@ -23,7 +23,7 @@ function ProgressBar(props) {
   }
 
   return (
-    <div className="progress-container">
+    <div className="progress-container" onClick={randomise}>
       <p>{props.title}</p>
       <div className="outer-bar">
         {progress.map((bar, index) => {
@@ -31,6 +31,7 @@ function ProgressBar(props) {
             <div
               className="inner-bar"
               style={{ backgroundColor: colors[index], width: `${bar}%` }}
+              key={index}
             ></div>
           );
         })}

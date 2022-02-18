@@ -12,8 +12,8 @@ function NavBar() {
   return (
     <nav>
       <Welcome name="Andy Repp" />
-      {sections.map((section) => (
-        <NavSection section={section} />
+      {sections.map((section, index) => (
+        <NavSection section={section} key={index} />
       ))}
     </nav>
   );

@@ -1,7 +1,7 @@
 import GraphLegend from "../BottomContent/GraphLegend/GraphLegend";
 import "./ContentContainer.css";
 import colors from "../../utils/colors";
-import CallDetails from "../TopContent/CallDetails";
+import CallDetails from "../TopContent/CallDetails/CallDetails";
 import ProgressBar from "../BottomContent/ProgressBar/ProgressBar";
 
 const legendName = [
@@ -26,11 +26,13 @@ function ContentContainer() {
         <h5>Detailing topic breakdown</h5>
         <div className="legend-container">
           {colors.map((x, index) => {
-            return <GraphLegend color={x} legend={legendName[index]} />;
+            return (
+              <GraphLegend color={x} legend={legendName[index]} key={index} />
+            );
           })}
         </div>
-        {titles.map((name) => {
-          return <ProgressBar title={name} />;
+        {titles.map((name, index) => {
+          return <ProgressBar title={name} key={index} />;
         })}
       </section>
     </main>

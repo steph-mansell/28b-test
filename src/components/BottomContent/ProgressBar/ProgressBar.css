@@ -9,6 +9,7 @@
 .inner-bar {
   height: 100%;
   display: inline-block;
+  transition: width 1s;
 }
 
 p {
