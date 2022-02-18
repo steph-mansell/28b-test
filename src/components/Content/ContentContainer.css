@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bottom-container {
+  font-family: "Roboto", sans-serif;
+  padding: 30px;
+  flex: 1;
+}
+
+.legend-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 20px;
+}

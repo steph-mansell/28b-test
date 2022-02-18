@@ -1,0 +1,17 @@
+.call-container {
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+}
+
+.call-row {
+  display: flex;
+  width: 100%;
+}
+
+.call-title {
+  flex: 1;
+}
+
+.call-desc {
+  flex: 1;
+}
