@@ -24,7 +24,7 @@ function ProgressBar(props) {
 
   return (
     <div className="progress-container" onClick={randomise}>
-      <p>{props.title}</p>
+      <p className="progress-title">{props.title}</p>
       <div className="outer-bar">
         {progress.map((bar, index) => {
           return (

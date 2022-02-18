@@ -1,6 +1,7 @@
 .call-container {
   font-family: "Roboto", sans-serif;
   width: 50%;
+  letter-spacing: 1px;
 }
 
 .call-row {
@@ -8,8 +9,13 @@
   width: 100%;
 }
 
+.call-row p {
+  margin: 10px 0;
+}
+
 .call-title {
   flex: 1;
+  font-weight: bold;
 }
 
 .call-desc {

@@ -3,12 +3,12 @@ import "./CallDetails.css";
 function CallDetails() {
   return (
     <div className="call-container">
-      <p>Next call</p>
+      <p>
+        <b>Next call</b>
+      </p>
 
       <div className="call-row">
-        <div className="call-title">
-          <b>Date:</b>
-        </div>
+        <p className="call-title">Date:</p>
         <div className="call-desc">
           <p>Tomorrow, 3PM</p>
           <p>12 November 2017</p>
@@ -16,16 +16,12 @@ function CallDetails() {
       </div>
 
       <div className="call-row">
-        <div className="call-title">
-          <b>Account:</b>
-        </div>
-        <div className="call-desc">Dr. Clinton Ackerman</div>
+        <p className="call-title">Account:</p>
+        <p className="call-desc">Dr. Clinton Ackerman</p>
       </div>
 
       <div className="call-row">
-        <div className="call-title">
-          <b>Specialty:</b>
-        </div>
+        <p className="call-title">Specialty:</p>
         <div className="call-desc">
           <p>Respiratory therapist</p>
           <p>Assistive therapy</p>
@@ -33,10 +29,8 @@ function CallDetails() {
       </div>
 
       <div className="call-row">
-        <div className="call-title">
-          <b>Profile:</b>
-        </div>
-        <div className="call-desc">Confident</div>
+        <p className="call-title">Profile:</p>
+        <p className="call-desc">Confident</p>
       </div>
     </div>
   );

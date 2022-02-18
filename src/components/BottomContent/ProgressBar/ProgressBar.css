@@ -12,6 +12,7 @@
   transition: width 1s;
 }
 
-p {
-  display: block;
+.progress-title {
+  font-size: smaller;
+  font-weight: bold;
 }

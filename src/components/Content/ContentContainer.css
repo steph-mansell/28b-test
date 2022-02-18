@@ -6,10 +6,10 @@ main {
 
 .top-container {
   display: flex;
-  flex-direction: column;
-  padding: 30px;
+  flex-direction: row;
+  padding-left: 30px;
   letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .bottom-container {
@@ -23,4 +23,14 @@ main {
   justify-content: space-between;
   flex-direction: row;
   margin-bottom: 20px;
+}
+
+.overview {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  padding: 30px 0 0 30px;
+}
+
+.progress-container {
+  padding: 5px 0;
 }
